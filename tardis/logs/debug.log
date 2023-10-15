@@ -1,0 +1,836 @@
+[17Jul2023 23:23:34.484] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.34, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui, pause~]
+[17Jul2023 23:23:34.485] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_371 by Oracle Corporation
+[17Jul2023 23:23:34.492] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[17Jul2023 23:23:34.499] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[17Jul2023 23:23:34.522] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[17Jul2023 23:23:34.526] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[17Jul2023 23:23:34.533] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[17Jul2023 23:23:34.540] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[17Jul2023 23:23:34.541] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[17Jul2023 23:23:34.541] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[17Jul2023 23:23:34.541] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[17Jul2023 23:23:34.541] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[17Jul2023 23:23:34.541] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[17Jul2023 23:23:34.543] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 36.2
+[17Jul2023 23:23:34.543] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 36.2 loading
+[17Jul2023 23:23:34.543] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 8.1.3+8.1.3+main-8.1.x.c94d18ec
+[17Jul2023 23:23:34.543] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[17Jul2023 23:23:34.543] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 3.0.1+61+master.47bca0e
+[17Jul2023 23:23:34.543] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 4.0.0+65+master.6080a3f
+[17Jul2023 23:23:34.544] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[17Jul2023 23:23:34.545] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 4.0.6+14+master.c21a551
+[17Jul2023 23:23:34.545] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.2.0+13+master.8ddb2cc
+[17Jul2023 23:23:34.545] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[17Jul2023 23:23:34.746] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[17Jul2023 23:23:34.747] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[17Jul2023 23:23:34.748] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[17Jul2023 23:23:34.753] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[17Jul2023 23:23:34.753] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[17Jul2023 23:23:34.759] [main/DEBUG] [mixin/]: Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[17Jul2023 23:23:34.759] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in sun.misc.Launcher$AppClassLoader@4517d9a3
+[17Jul2023 23:23:34.766] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/Donald/Downloads/Pixelmon%20Server%209.0.8/Pixelmon%20Server%209.0.8/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[17Jul2023 23:23:34.768] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[17Jul2023 23:23:34.768] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17Jul2023 23:23:34.768] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17Jul2023 23:23:34.769] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17Jul2023 23:23:34.769] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17Jul2023 23:23:34.769] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17Jul2023 23:23:34.770] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[17Jul2023 23:23:34.770] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[17Jul2023 23:23:34.770] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[17Jul2023 23:23:34.770] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8
+[17Jul2023 23:23:34.770] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8
+[17Jul2023 23:23:34.771] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods
+[17Jul2023 23:23:34.771] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods
+[17Jul2023 23:23:34.771] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config
+[17Jul2023 23:23:34.771] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config
+[17Jul2023 23:23:34.771] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\fml.toml
+[17Jul2023 23:23:34.771] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[17Jul2023 23:23:34.788] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\defaultconfigs
+[17Jul2023 23:23:34.788] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[17Jul2023 23:23:34.789] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[17Jul2023 23:23:34.789] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[17Jul2023 23:23:34.793] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.16.5' MCP Version: '20210115.111550' Forge Version: '36.2.34' Forge group: 'net.minecraftforge'
+[17Jul2023 23:23:34.793] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\org\ow2\asm\asm\9.1\asm-9.1.jar
+[17Jul2023 23:23:34.793] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries
+[17Jul2023 23:23:34.793] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar is present
+[17Jul2023 23:23:34.794] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar is present
+[17Jul2023 23:23:34.794] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-extra.jar is present
+[17Jul2023 23:23:34.794] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar is present
+[17Jul2023 23:23:34.795] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[17Jul2023 23:23:34.795] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar
+[17Jul2023 23:23:34.796] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/C:/Users/Donald/Downloads/Pixelmon%20Server%209.0.8/Pixelmon%20Server%209.0.8/libraries/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-universal.jar to languageloader classloader
+[17Jul2023 23:23:34.812] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[17Jul2023 23:23:34.812] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 36.2
+[17Jul2023 23:23:34.815] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[17Jul2023 23:23:34.816] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[17Jul2023 23:23:34.816] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[17Jul2023 23:23:34.816] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[17Jul2023 23:23:34.817] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[17Jul2023 23:23:34.817] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[17Jul2023 23:23:34.817] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[17Jul2023 23:23:34.817] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[17Jul2023 23:23:34.817] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[17Jul2023 23:23:34.825] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[17Jul2023 23:23:34.837] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[17Jul2023 23:23:34.881] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar
+[17Jul2023 23:23:34.900] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file byg-1.3.5.jar with {byg} mods - versions {1.3.4}
+[17Jul2023 23:23:34.902] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar with language javafml
+[17Jul2023 23:23:34.902] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar
+[17Jul2023 23:23:34.904] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ExplorersCompass-1.16.5-1.1.2-forge.jar with {explorerscompass} mods - versions {1.16.5-1.1.2-forge}
+[17Jul2023 23:23:34.904] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar with language javafml
+[17Jul2023 23:23:34.904] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar
+[17Jul2023 23:23:34.905] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar with {fancymenu} mods - versions {2.7.2}
+[17Jul2023 23:23:34.905] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar with language javafml
+[17Jul2023 23:23:34.905] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar
+[17Jul2023 23:23:34.905] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file journeymap-1.16.5-5.8.5p2.jar with {journeymap} mods - versions {5.8.5p2}
+[17Jul2023 23:23:34.906] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar with language javafml
+[17Jul2023 23:23:34.966] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod journeymap render event transformer with Javascript path render-event-transformer.js
+[17Jul2023 23:23:34.966] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod journeymap potion effect transformer with Javascript path potion-effects-shift.js
+[17Jul2023 23:23:34.966] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod render-event-transformer.js
+[17Jul2023 23:23:34.966] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod potion-effects-shift.js
+[17Jul2023 23:23:34.966] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar
+[17Jul2023 23:23:34.967] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar with {konkrete} mods - versions {1.3.3}
+[17Jul2023 23:23:34.967] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar with language javafml
+[17Jul2023 23:23:34.967] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar
+[17Jul2023 23:23:34.967] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file NaturesCompass-1.16.5-1.9.1-forge.jar with {naturescompass} mods - versions {1.16.5-1.9.1-forge}
+[17Jul2023 23:23:34.968] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar with language javafml
+[17Jul2023 23:23:34.968] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar
+[17Jul2023 23:23:34.969] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Pixelmon-1.16.5-9.0.8-universal.jar with {pixelmon,clientresetpacket,serverredirect} mods - versions {9.0.8,1.0.0,1.4.4a}
+[17Jul2023 23:23:34.972] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar with language javafml
+[17Jul2023 23:23:34.973] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar
+[17Jul2023 23:23:34.973] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.5-36.2.34-universal.jar with {forge} mods - versions {36.2.34}
+[17Jul2023 23:23:34.979] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar with language javafml
+[17Jul2023 23:23:34.979] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[17Jul2023 23:23:34.979] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[17Jul2023 23:23:34.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[17Jul2023 23:23:34.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[17Jul2023 23:23:34.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[17Jul2023 23:23:34.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[17Jul2023 23:23:34.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar
+[17Jul2023 23:23:34.981] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.5-36.2.34-server.jar with {minecraft} mods - versions {1.16.5}
+[17Jul2023 23:23:34.981] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar with language minecraft
+[17Jul2023 23:23:34.985] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 13 mod requirements (8 mandatory, 5 optional)
+[17Jul2023 23:23:34.986] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[17Jul2023 23:23:35.126] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[17Jul2023 23:23:35.126] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[17Jul2023 23:23:35.126] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[17Jul2023 23:23:35.126] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[17Jul2023 23:23:35.126] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[17Jul2023 23:23:35.126] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[17Jul2023 23:23:35.127] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[17Jul2023 23:23:35.177] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[17Jul2023 23:23:35.177] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[17Jul2023 23:23:35.228] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[17Jul2023 23:23:35.228] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[17Jul2023 23:23:35.241] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[17Jul2023 23:23:35.241] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from render-event-transformer.js
+[17Jul2023 23:23:35.251] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[17Jul2023 23:23:35.251] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from potion-effects-shift.js
+[17Jul2023 23:23:35.262] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[17Jul2023 23:23:35.265] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@59429fac to Target : METHOD {Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;} {func_175156_o} {()F}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@769d513 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228396_a_} {(FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer$Impl;Lnet/minecraft/client/entity/player/ClientPlayerEntity;I)V}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@5e4fa1da to Target : METHOD {Lnet/minecraft/client/renderer/entity/model/SkeletonModel;} {func_212843_a_} {(Lnet/minecraft/entity/MobEntity;FFF)V}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@588cd519 to Target : METHOD {Lnet/minecraft/client/renderer/entity/model/SkeletonModel;} {func_225597_a_} {(Lnet/minecraft/entity/MobEntity;FFFFF)V}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@3f92c349 to Target : METHOD {Lnet/minecraft/entity/monster/AbstractSkeletonEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@769a58e5 to Target : METHOD {Lnet/minecraft/entity/monster/AbstractSkeletonEntity;} {func_85036_m} {()V}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@55f8669d to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228396_a_} {(FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer$Impl;Lnet/minecraft/client/entity/player/ClientPlayerEntity;I)V}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@6be25526 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228405_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;FFLnet/minecraft/util/Hand;FLnet/minecraft/item/ItemStack;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@42435b98 to Target : METHOD {Lnet/minecraft/client/renderer/entity/PlayerRenderer;} {func_241741_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/client/renderer/entity/model/BipedModel$ArmPose;}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@66ba7e45 to Target : METHOD {Lnet/minecraft/entity/monster/PillagerEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@70e02081 to Target : METHOD {Lnet/minecraft/entity/monster/PillagerEntity;} {func_241844_w} {(F)V}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@9d200de to Target : METHOD {Lnet/minecraft/entity/monster/piglin/PiglinEntity;} {func_208003_a} {(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z}
+[17Jul2023 23:23:35.266] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@511505e7 to Target : METHOD {Lnet/minecraft/entity/monster/piglin/PiglinEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@646811d6 to Target : METHOD {Lnet/minecraft/item/CrossbowItem;} {func_220013_l} {(Lnet/minecraft/item/ItemStack;)F}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@15fdd1f2 to Target : METHOD {Lnet/minecraft/item/Item;} {func_219970_i} {(Lnet/minecraft/item/ItemStack;)Z}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@cb0f763 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228405_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;FFLnet/minecraft/util/Hand;FLnet/minecraft/item/ItemStack;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@7573e12f to Target : METHOD {Lnet/minecraft/entity/item/ItemFrameEntity;} {func_110131_b} {(Lnet/minecraft/item/ItemStack;)V}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@51b1a8f6 to Target : METHOD {Lnet/minecraft/inventory/container/CartographyContainer$3;} {func_75214_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@2a389173 to Target : METHOD {Lnet/minecraft/inventory/container/CartographyContainer;} {func_82846_b} {(Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack;}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@213860b8 to Target : METHOD {Lnet/minecraft/item/ItemStack;} {func_82840_a} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/client/util/ITooltipFlag;)Ljava/util/List;}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@4ba89729 to Target : METHOD {Lnet/minecraft/client/renderer/entity/FishRenderer;} {func_225623_a_} {(Lnet/minecraft/entity/projectile/FishingBobberEntity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@178270b2 to Target : METHOD {Lnet/minecraft/entity/projectile/FishingBobberEntity;} {func_234600_a_} {(Lnet/minecraft/entity/player/PlayerEntity;)Z}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@795fd838 to Target : METHOD {Lnet/minecraft/block/BeehiveBlock;} {func_225533_a_} {(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1b005a0b to Target : METHOD {Lnet/minecraft/block/PumpkinBlock;} {func_225533_a_} {(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@141e879d to Target : METHOD {Lnet/minecraft/block/TripWireBlock;} {func_176208_a} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/entity/player/PlayerEntity;)V}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@109d724c to Target : METHOD {Lnet/minecraft/enchantment/EfficiencyEnchantment;} {func_92089_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1704f67f to Target : METHOD {Lnet/minecraft/entity/passive/MooshroomEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@e4d2696 to Target : METHOD {Lnet/minecraft/entity/passive/SheepEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@6e0f7aad to Target : METHOD {Lnet/minecraft/entity/passive/SnowGolemEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@15fb7a32 to Target : METHOD {Lnet/minecraft/client/renderer/WorldRenderer;} {func_215319_a} {(IIIZ)V}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@257cc1fc to Target : METHOD {Lnet/minecraft/client/gui/IngameGui;} {func_238444_a_} {(Lcom/mojang/blaze3d/matrix/MatrixStack;)V}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@57adfab0 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[17Jul2023 23:23:35.267] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1949309d to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[17Jul2023 23:23:35.268] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5af97169 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[17Jul2023 23:23:35.268] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@99a78d7 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[17Jul2023 23:23:35.268] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@31da6b2e to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[17Jul2023 23:23:35.268] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@61c76850 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[17Jul2023 23:23:35.268] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@70242f38 to Target : CLASS {Lnet/minecraft/item/ItemStack;} {} {V}
+[17Jul2023 23:23:35.268] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2a22ad2b to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[17Jul2023 23:23:35.268] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[17Jul2023 23:23:35.282] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[17Jul2023 23:23:35.282] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[17Jul2023 23:23:35.282] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-server.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-server.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-server.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-server.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-server.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-server.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar)]
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar)]
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar)]
+[17Jul2023 23:23:35.283] [main/DEBUG] [mixin/]: Registering mixin config: fancymenu.general.mixin.json
+[17Jul2023 23:23:35.295] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.295] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.295] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.295] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.295] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar)
+[17Jul2023 23:23:35.295] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar)]
+[17Jul2023 23:23:35.295] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(journeymap-1.16.5-5.8.5p2.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar)
+[17Jul2023 23:23:35.295] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(journeymap-1.16.5-5.8.5p2.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar)
+[17Jul2023 23:23:35.296] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(journeymap-1.16.5-5.8.5p2.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar)
+[17Jul2023 23:23:35.296] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(journeymap-1.16.5-5.8.5p2.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar)
+[17Jul2023 23:23:35.296] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(journeymap-1.16.5-5.8.5p2.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar)
+[17Jul2023 23:23:35.296] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(journeymap-1.16.5-5.8.5p2.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar)]
+[17Jul2023 23:23:35.296] [main/DEBUG] [mixin/]: Registering mixin config: journeymap.mixins.json
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(Pixelmon-1.16.5-9.0.8-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(Pixelmon-1.16.5-9.0.8-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(Pixelmon-1.16.5-9.0.8-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(Pixelmon-1.16.5-9.0.8-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(Pixelmon-1.16.5-9.0.8-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(Pixelmon-1.16.5-9.0.8-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar)]
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(byg-1.3.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(byg-1.3.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(byg-1.3.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(byg-1.3.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(byg-1.3.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar)
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(byg-1.3.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar)]
+[17Jul2023 23:23:35.297] [main/DEBUG] [mixin/]: Registering mixin config: byg.mixins.json
+[17Jul2023 23:23:35.298] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(ExplorersCompass-1.16.5-1.1.2-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar)
+[17Jul2023 23:23:35.298] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(ExplorersCompass-1.16.5-1.1.2-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar)
+[17Jul2023 23:23:35.298] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(ExplorersCompass-1.16.5-1.1.2-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar)
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(ExplorersCompass-1.16.5-1.1.2-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar)
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(ExplorersCompass-1.16.5-1.1.2-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar)
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(ExplorersCompass-1.16.5-1.1.2-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar)]
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(NaturesCompass-1.16.5-1.9.1-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar)
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(NaturesCompass-1.16.5-1.9.1-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar)
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(NaturesCompass-1.16.5-1.9.1-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar)
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(NaturesCompass-1.16.5-1.9.1-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar)
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(NaturesCompass-1.16.5-1.9.1-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar)
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(NaturesCompass-1.16.5-1.9.1-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar)]
+[17Jul2023 23:23:35.299] [main/DEBUG] [mixin/]: inject() running with 10 agents
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-server.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-server.jar)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.34-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(journeymap-1.16.5-5.8.5p2.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(Pixelmon-1.16.5-9.0.8-universal.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(byg-1.3.5.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(ExplorersCompass-1.16.5-1.1.2-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar)]
+[17Jul2023 23:23:35.300] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(NaturesCompass-1.16.5-1.9.1-forge.jar:C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar)]
+[17Jul2023 23:23:35.300] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui, pause~]
+[17Jul2023 23:23:35.317] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[17Jul2023 23:23:35.319] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[17Jul2023 23:23:35.319] [main/DEBUG] [mixin/]: Selecting config fancymenu.general.mixin.json
+[17Jul2023 23:23:35.326] [main/DEBUG] [mixin/]: Selecting config journeymap.mixins.json
+[17Jul2023 23:23:35.327] [main/DEBUG] [mixin/]: Selecting config byg.mixins.json
+[17Jul2023 23:23:35.328] [main/DEBUG] [mixin/]: Preparing fancymenu.general.mixin.json (12)
+[17Jul2023 23:23:35.328] [main/DEBUG] [mixin/]: Preparing journeymap.mixins.json (1)
+[17Jul2023 23:23:35.328] [main/DEBUG] [mixin/]: Preparing byg.mixins.json (47)
+[17Jul2023 23:23:35.434] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[17Jul2023 23:23:35.436] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[17Jul2023 23:23:35.437] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[17Jul2023 23:23:35.438] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[17Jul2023 23:23:35.438] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[17Jul2023 23:23:35.439] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[17Jul2023 23:23:35.586] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_219970_i with desc (Lnet/minecraft/item/ItemStack;)Z
+[17Jul2023 23:23:35.666] [main/DEBUG] [mixin/]: Mixing access.BlockEntityTypeAccess from byg.mixins.json into net.minecraft.tileentity.TileEntityType
+[17Jul2023 23:23:35.685] [main/DEBUG] [mixin/]: Mixing access.WorldCarverAccess from byg.mixins.json into net.minecraft.world.gen.carver.WorldCarver
+[17Jul2023 23:23:35.689] [main/DEBUG] [mixin/]: Mixing common.world.ChunkStatusMixin from byg.mixins.json into net.minecraft.world.chunk.ChunkStatus
+[17Jul2023 23:23:35.711] [main/DEBUG] [mixin/]: Mixing access.StructureAccess from byg.mixins.json into net.minecraft.world.gen.feature.structure.Structure
+[17Jul2023 23:23:35.711] [main/DEBUG] [mixin/]: Renaming @Accessor method getStructureStep()Ljava/util/Map; to getStructureStep_$md$8759b7$0 in byg.mixins.json:access.StructureAccess
+[17Jul2023 23:23:35.716] [main/DEBUG] [mixin/]: Mixing access.BiomeAccess from byg.mixins.json into net.minecraft.world.biome.Biome
+[17Jul2023 23:23:35.717] [main/DEBUG] [mixin/]: Renaming @Invoker method create(Lnet/minecraft/world/biome/Biome$Climate;Lnet/minecraft/world/biome/Biome$Category;FFLnet/minecraft/world/biome/BiomeAmbience;Lnet/minecraft/world/biome/BiomeGenerationSettings;Lnet/minecraft/world/biome/MobSpawnInfo;)Lnet/minecraft/world/biome/Biome; to create_$md$8759b7$0 in byg.mixins.json:access.BiomeAccess
+[17Jul2023 23:23:35.723] [main/DEBUG] [mixin/]: Mixing access.VillagerTypeAccess from byg.mixins.json into net.minecraft.entity.villager.VillagerType
+[17Jul2023 23:23:35.723] [main/DEBUG] [mixin/]: Renaming @Accessor method getVillagerByBiome()Ljava/util/Map; to getVillagerByBiome_$md$8759b7$0 in byg.mixins.json:access.VillagerTypeAccess
+[17Jul2023 23:23:35.740] [main/DEBUG] [mixin/]: Mixing common.block.MixinBlocks from byg.mixins.json into net.minecraft.block.Blocks
+[17Jul2023 23:23:35.761] [main/DEBUG] [mixin/]: Mixing access.SpreadableSnowyDirtBlockAccess from byg.mixins.json into net.minecraft.block.SpreadableSnowyDirtBlock
+[17Jul2023 23:23:35.762] [main/DEBUG] [mixin/]: Renaming @Invoker method invokeCanBeGrass(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;)Z to invokeCanBeGrass_$md$8759b7$0 in byg.mixins.json:access.SpreadableSnowyDirtBlockAccess
+[17Jul2023 23:23:35.762] [main/DEBUG] [mixin/]: Renaming @Invoker method invokeCanPropagate(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;)Z to invokeCanPropagate_$md$8759b7$1 in byg.mixins.json:access.SpreadableSnowyDirtBlockAccess
+[17Jul2023 23:23:35.766] [main/DEBUG] [mixin/]: Mixing common.block.MixinSaplingBlock from byg.mixins.json into net.minecraft.block.SaplingBlock
+[17Jul2023 23:23:35.776] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[17Jul2023 23:23:35.793] [main/DEBUG] [mixin/]: Mixing access.FireBlockAccess from byg.mixins.json into net.minecraft.block.FireBlock
+[17Jul2023 23:23:35.794] [main/DEBUG] [mixin/]: Mixing common.block.MixinAbstractFireBlock from byg.mixins.json into net.minecraft.block.AbstractFireBlock
+[17Jul2023 23:23:35.802] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[17Jul2023 23:23:35.819] [main/DEBUG] [mixin/]: Mixing common.block.MixinCactusBlock from byg.mixins.json into net.minecraft.block.CactusBlock
+[17Jul2023 23:23:35.824] [main/DEBUG] [mixin/]: Mixing common.block.MixinSugarCaneBlock from byg.mixins.json into net.minecraft.block.SugarCaneBlock
+[17Jul2023 23:23:35.830] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_225533_a_ with desc (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;
+[17Jul2023 23:23:35.839] [main/DEBUG] [mixin/]: Mixing common.block.MixinNetherrackBlock from byg.mixins.json into net.minecraft.block.NetherrackBlock
+[17Jul2023 23:23:35.861] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_176208_a with desc (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/entity/player/PlayerEntity;)V
+[17Jul2023 23:23:35.865] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[17Jul2023 23:23:35.895] [main/DEBUG] [mixin/]: Mixing access.NyliumBlockAccess from byg.mixins.json into net.minecraft.block.NyliumBlock
+[17Jul2023 23:23:35.896] [main/DEBUG] [mixin/]: Renaming @Invoker method invokeCanBeNylium(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;)Z to invokeCanBeNylium_$md$8759b7$0 in byg.mixins.json:access.NyliumBlockAccess
+[17Jul2023 23:23:35.900] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_225533_a_ with desc (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;
+[17Jul2023 23:23:36.170] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[17Jul2023 23:23:36.238] [main/DEBUG] [mixin/]: Mixing common.entity.MixinAnimalEntity from byg.mixins.json into net.minecraft.entity.passive.AnimalEntity
+[17Jul2023 23:23:36.319] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_82846_b with desc (Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack;
+[17Jul2023 23:23:36.388] [main/DEBUG] [mixin/]: Mixing common.world.feature.MixinBasaltColumnFeature from byg.mixins.json into net.minecraft.world.gen.feature.BasaltColumnFeature
+[17Jul2023 23:23:36.640] [main/DEBUG] [mixin/]: Mixing access.BoatEntityAccess from byg.mixins.json into net.minecraft.entity.item.BoatEntity
+[17Jul2023 23:23:36.711] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_82840_a with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/client/util/ITooltipFlag;)Ljava/util/List;
+[17Jul2023 23:23:36.738] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/ItemStack
+[17Jul2023 23:23:36.745] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_110131_b with desc (Lnet/minecraft/item/ItemStack;)V
+[17Jul2023 23:23:36.756] [main/DEBUG] [mixin/]: Mixing common.entity.MixinSlimeEntity from byg.mixins.json into net.minecraft.entity.monster.SlimeEntity
+[17Jul2023 23:23:36.771] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[17Jul2023 23:23:36.814] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[17Jul2023 23:23:36.814] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_208003_a with desc (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z
+[17Jul2023 23:23:36.818] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[17Jul2023 23:23:36.818] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_241844_w with desc (F)V
+[17Jul2023 23:23:36.829] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[17Jul2023 23:23:36.830] [main/DEBUG] [mixin/]: Mixing common.entity.MixinEatGrassGoal from byg.mixins.json into net.minecraft.entity.ai.goal.EatGrassGoal
+[17Jul2023 23:23:36.838] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_85036_m with desc ()V
+[17Jul2023 23:23:36.839] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[17Jul2023 23:23:36.910] [main/DEBUG] [mixin/]: Mixing access.WeightedListAccess from byg.mixins.json into net.minecraft.util.WeightedList
+[17Jul2023 23:23:36.911] [main/DEBUG] [mixin/]: Mixing access.WeightedListEntryAccess from byg.mixins.json into net.minecraft.util.WeightedList$Entry
+[17Jul2023 23:23:36.913] [main/DEBUG] [mixin/]: Mixing access.FillerBlockTypeAccess from byg.mixins.json into net.minecraft.world.gen.feature.OreFeatureConfig$FillerBlockType
+[17Jul2023 23:23:36.913] [main/DEBUG] [mixin/]: Renaming @Accessor method setNetherFillerType(Lnet/minecraft/world/gen/feature/template/RuleTest;)V to setNetherFillerType_$md$8759b7$0 in byg.mixins.json:access.FillerBlockTypeAccess
+[17Jul2023 23:23:37.035] [main/DEBUG] [mixin/]: Mixing access.BiomeGenerationSettingsAccess from byg.mixins.json into net.minecraft.world.biome.BiomeGenerationSettings
+[17Jul2023 23:23:37.069] [main/DEBUG] [mixin/]: Mixing access.DimensionStructuresSettingsAccess from byg.mixins.json into net.minecraft.world.gen.settings.DimensionStructuresSettings
+[17Jul2023 23:23:37.069] [main/DEBUG] [mixin/]: Renaming @Accessor method setDefaults(Lcom/google/common/collect/ImmutableMap;)V to setDefaults_$md$8759b7$0 in byg.mixins.json:access.DimensionStructuresSettingsAccess
+[17Jul2023 23:23:37.080] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_92089_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[17Jul2023 23:23:37.119] [main/DEBUG] [mixin/]: Mixing access.AxeItemAccess from byg.mixins.json into net.minecraft.item.AxeItem
+[17Jul2023 23:23:37.120] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_219970_i with desc (Lnet/minecraft/item/ItemStack;)Z
+[17Jul2023 23:23:37.120] [main/DEBUG] [mixin/]: Renaming @Accessor method getStripables()Ljava/util/Map; to getStripables_$md$8759b7$0 in byg.mixins.json:access.AxeItemAccess
+[17Jul2023 23:23:37.121] [main/DEBUG] [mixin/]: Renaming @Accessor method setStripables(Ljava/util/Map;)V to setStripables_$md$8759b7$1 in byg.mixins.json:access.AxeItemAccess
+[17Jul2023 23:23:37.122] [main/DEBUG] [mixin/]: Mixing access.HoeItemAccess from byg.mixins.json into net.minecraft.item.HoeItem
+[17Jul2023 23:23:37.122] [main/DEBUG] [mixin/]: Renaming @Accessor method getTillables()Ljava/util/Map; to getTillables_$md$8759b7$0 in byg.mixins.json:access.HoeItemAccess
+[17Jul2023 23:23:37.122] [main/DEBUG] [mixin/]: Renaming @Accessor method setTillables(Ljava/util/Map;)V to setTillables_$md$8759b7$1 in byg.mixins.json:access.HoeItemAccess
+[17Jul2023 23:23:37.359] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[17Jul2023 23:23:37.365] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[17Jul2023 23:23:37.383] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_220013_l with desc (Lnet/minecraft/item/ItemStack;)F
+[17Jul2023 23:23:37.422] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[17Jul2023 23:23:37.432] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_234600_a_ with desc (Lnet/minecraft/entity/player/PlayerEntity;)Z
+[17Jul2023 23:23:37.459] [main/DEBUG] [mixin/]: Mixing access.BlockEntityTypeBuilderAccess from byg.mixins.json into net.minecraft.tileentity.TileEntityType$Builder
+[17Jul2023 23:23:37.460] [main/DEBUG] [mixin/]: Mixing access.TileEntityTypeBuilderAccess from byg.mixins.json into net.minecraft.tileentity.TileEntityType$Builder
+[17Jul2023 23:23:37.460] [main/DEBUG] [mixin/]: Unexpected: Registered method getValidBlocks()Ljava/util/Set; in net.minecraft.tileentity.TileEntityType$Builder was not merged
+[17Jul2023 23:23:37.484] [main/DEBUG] [mixin/]: Mixing common.lightengine.WorldLightManagerMixin from byg.mixins.json into net.minecraft.world.lighting.WorldLightManager
+[17Jul2023 23:23:37.509] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_75214_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[17Jul2023 23:23:37.711] [main/DEBUG] [mixin/]: Mixing server.MixinMinecraftServer from byg.mixins.json into net.minecraft.server.MinecraftServer
+[17Jul2023 23:23:37.739] [main/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4980
+[17Jul2023 23:23:37.799] [main/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[17Jul2023 23:23:37.801] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 32 threads for parallel mod-loading
+[17Jul2023 23:23:37.811] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.811] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.820] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.820] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for de.keksuccino.fancymenu.FancyMenu with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.821] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.821] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for de.keksuccino.konkrete.Konkrete with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.821] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.821] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for journeymap.common.Journeymap with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.823] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.823] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.kaikk.mc.serverredirect.forge.ServerRedirect with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.825] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.825] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for gg.chaldea.client.reset.packet.ClientReset with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.825] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.825] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.pixelmonmod.pixelmon.Pixelmon with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.827] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.827] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for corgiaoc.byg.entrypoint.ForgeEntryPoint with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.828] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.828] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.chaosthedude.explorerscompass.ExplorersCompass with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.829] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@59546cfe - got cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.829] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.chaosthedude.naturescompass.NaturesCompass with classLoader cpw.mods.modlauncher.TransformingClassLoader@59546cfe & cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.831] [modloading-worker-18/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 36.2 from cpw.mods.modlauncher.TransformingClassLoader@59546cfe
+[17Jul2023 23:23:37.831] [modloading-worker-4/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[17Jul2023 23:23:37.831] [modloading-worker-11/WARN] [fancymenu/FancyMenu/]: WARNING: FancyMenu is a client mod and has no effect when loaded on a server!
+[17Jul2023 23:23:37.831] [modloading-worker-18/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 36.2.34
+[17Jul2023 23:23:37.831] [modloading-worker-18/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 36.2
+[17Jul2023 23:23:37.831] [modloading-worker-4/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[17Jul2023 23:23:37.831] [modloading-worker-18/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[17Jul2023 23:23:37.832] [modloading-worker-18/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.16.5
+[17Jul2023 23:23:37.832] [modloading-worker-18/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20210115.111550
+[17Jul2023 23:23:37.832] [modloading-worker-18/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.34, for MC 1.16.5 with MCP 20210115.111550
+[17Jul2023 23:23:37.832] [modloading-worker-25/INFO] [Pixelmon/]: Patched lifecycle fields.
+[17Jul2023 23:23:37.834] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fancymenu
+[17Jul2023 23:23:37.834] [modloading-worker-15/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for clientresetpacket
+[17Jul2023 23:23:37.834] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for konkrete
+[17Jul2023 23:23:37.834] [modloading-worker-22/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for serverredirect
+[17Jul2023 23:23:37.834] [modloading-worker-18/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.34 Initialized
+[17Jul2023 23:23:37.835] [modloading-worker-8/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for byg
+[17Jul2023 23:23:37.837] [modloading-worker-22/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.items.armor.armoreffects.ThunderstoneEffect to FORGE
+[17Jul2023 23:23:37.837] [modloading-worker-8/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing corgiaoc.byg.entrypoint.ForgeEntryPoint to MOD
+[17Jul2023 23:23:37.837] [modloading-worker-15/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.items.armor.armoreffects.ThunderstoneEffect to FORGE
+[17Jul2023 23:23:37.842] [modloading-worker-15/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.storage.extras.PixelExtrasStorage to FORGE
+[17Jul2023 23:23:37.842] [modloading-worker-22/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.storage.extras.PixelExtrasStorage to FORGE
+[17Jul2023 23:23:37.844] [modloading-worker-29/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file journeymap-server.toml for journeymap tracking
+[17Jul2023 23:23:37.844] [modloading-worker-29/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for journeymap
+[17Jul2023 23:23:37.844] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file explorerscompass-common.toml for explorerscompass tracking
+[17Jul2023 23:23:37.845] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file explorerscompass-client.toml for explorerscompass tracking
+[17Jul2023 23:23:37.845] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for explorerscompass
+[17Jul2023 23:23:37.845] [modloading-worker-26/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file naturescompass-common.toml for naturescompass tracking
+[17Jul2023 23:23:37.845] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.chaosthedude.explorerscompass.registry.ExplorersCompassRegistry to MOD
+[17Jul2023 23:23:37.845] [modloading-worker-26/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file naturescompass-client.toml for naturescompass tracking
+[17Jul2023 23:23:37.845] [modloading-worker-26/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for naturescompass
+[17Jul2023 23:23:37.845] [modloading-worker-26/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.chaosthedude.naturescompass.registry.NaturesCompassRegistry to MOD
+[17Jul2023 23:23:37.846] [modloading-worker-15/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.api.config.RegistryHandler to MOD
+[17Jul2023 23:23:37.846] [modloading-worker-29/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing journeymap.common.Journeymap to FORGE
+[17Jul2023 23:23:37.846] [modloading-worker-22/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.api.config.RegistryHandler to MOD
+[17Jul2023 23:23:37.847] [modloading-worker-29/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing journeymap.common.config.ForgeConfig to MOD
+[17Jul2023 23:23:37.847] [modloading-worker-15/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.listener.CanUpdateListener to FORGE
+[17Jul2023 23:23:37.847] [modloading-worker-22/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.listener.CanUpdateListener to FORGE
+[17Jul2023 23:23:37.850] [modloading-worker-15/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.listener.ZygardeCellsListener to FORGE
+[17Jul2023 23:23:37.850] [modloading-worker-22/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.listener.ZygardeCellsListener to FORGE
+[17Jul2023 23:23:37.851] [modloading-worker-18/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[17Jul2023 23:23:37.851] [modloading-worker-18/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[17Jul2023 23:23:37.851] [modloading-worker-18/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[17Jul2023 23:23:37.872] [modloading-worker-18/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[17Jul2023 23:23:37.872] [modloading-worker-18/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[17Jul2023 23:23:38.143] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for pixelmon
+[17Jul2023 23:23:38.143] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.items.armor.armoreffects.ThunderstoneEffect to FORGE
+[17Jul2023 23:23:38.143] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.storage.extras.PixelExtrasStorage to FORGE
+[17Jul2023 23:23:38.143] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.CommonProxy to FORGE
+[17Jul2023 23:23:38.144] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.api.config.RegistryHandler to MOD
+[17Jul2023 23:23:38.144] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.world.generation.AddToBiomes to FORGE
+[17Jul2023 23:23:38.146] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.world.dimension.DimensionRegistration to MOD
+[17Jul2023 23:23:38.147] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.listener.CanUpdateListener to FORGE
+[17Jul2023 23:23:38.147] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.listener.ZygardeCellsListener to FORGE
+[17Jul2023 23:23:38.148] [modloading-worker-25/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.init.loaders.PixelmonLoaders to FORGE
+[17Jul2023 23:23:38.607] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering blocks...
+[17Jul2023 23:23:38.908] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
+[17Jul2023 23:23:39.010] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering items...
+[17Jul2023 23:23:39.037] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
+[17Jul2023 23:23:39.085] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering block entities...
+[17Jul2023 23:23:39.086] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[17Jul2023 23:23:39.129] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering entities...
+[17Jul2023 23:23:39.130] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
+[17Jul2023 23:23:39.135] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering block entities...
+[17Jul2023 23:23:39.136] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pc`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokelootobtained`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.item.camerashutter`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.healeractivate`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokeballclose`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokeballrelease`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokeballcapture`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokeballcapturesuccess`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.bellring`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.item.ultrawormhole`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.151] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.ultraspace`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.152] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.wild`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.152] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.player`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.152] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.trainer`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.152] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.gym`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.152] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.boss`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.152] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.legendary`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.152] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.raid`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.152] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.custom`, expected `serverredirect`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.153] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pc`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.153] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokelootobtained`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.153] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.item.camerashutter`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.153] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.healeractivate`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.154] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokeballclose`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.154] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokeballrelease`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.154] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokeballcapture`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.pokeballcapturesuccess`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.block.bellring`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.item.ultrawormhole`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.ultraspace`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.wild`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.player`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.trainer`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.gym`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.155] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.boss`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.156] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.legendary`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.156] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.raid`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.156] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `pixelmon` for name `pixelmon.music.battle.custom`, expected `clientresetpacket`. This could be a intended override, but in most cases indicates a broken mod.
+[17Jul2023 23:23:39.157] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering sounds...
+[17Jul2023 23:23:39.158] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Sounds registered!
+[17Jul2023 23:23:39.161] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering biomes...
+[17Jul2023 23:23:39.624] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
+[17Jul2023 23:23:39.625] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering block placer types...
+[17Jul2023 23:23:39.625] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
+[17Jul2023 23:23:39.626] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering decorators...
+[17Jul2023 23:23:39.627] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
+[17Jul2023 23:23:39.634] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering features...
+[17Jul2023 23:23:39.638] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
+[17Jul2023 23:23:39.654] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering structures...
+[17Jul2023 23:23:39.655] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
+[17Jul2023 23:23:39.656] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Registering surface builders...
+[17Jul2023 23:23:39.656] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
+[17Jul2023 23:23:39.686] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[17Jul2023 23:23:39.686] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\explorerscompass-common.toml
+[17Jul2023 23:23:39.687] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\explorerscompass-common.toml
+[17Jul2023 23:23:39.687] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\explorerscompass-common.toml for changes
+[17Jul2023 23:23:39.688] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\naturescompass-common.toml
+[17Jul2023 23:23:39.689] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\naturescompass-common.toml
+[17Jul2023 23:23:39.689] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\naturescompass-common.toml for changes
+[17Jul2023 23:23:39.689] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\forge-common.toml
+[17Jul2023 23:23:39.689] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\forge-common.toml
+[17Jul2023 23:23:39.689] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\config\forge-common.toml for changes
+[17Jul2023 23:23:39.689] [main/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[17Jul2023 23:23:39.690] [modloading-worker-8/DEBUG] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Starting...
+[17Jul2023 23:23:39.690] [modloading-worker-8/DEBUG] [corgiaoc.byg.BYG/]: BYG: Item Group Created!
+[17Jul2023 23:23:39.690] [modloading-worker-11/INFO] [Pixelmon/]: Loading Pixelmon version 9.0.8
+[17Jul2023 23:23:39.690] [modloading-worker-1/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Registering forge reset packet
+[17Jul2023 23:23:39.692] [modloading-worker-1/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Registered forge reset packet
+[17Jul2023 23:23:39.693] [modloading-worker-8/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[17Jul2023 23:23:39.701] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Jul2023 23:23:40.006] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.39",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.2.0",
+    "1.18.2-latest": "40.2.10",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.2.0",
+    "1.19.2-latest": "43.2.21",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.1.0",
+    "1.19.4-latest": "45.1.16",
+    "1.20-latest": "46.0.14",
+    "1.20.1-latest": "47.1.33",
+    "1.20.1-recommended": "47.1.0"
+  }
+}
+[17Jul2023 23:23:40.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.34 Target: null
+[17Jul2023 23:23:40.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[17Jul2023 23:23:40.192] [modloading-worker-11/INFO] [Pixelmon/]: Loaded Advancements
+[17Jul2023 23:23:40.214] [modloading-worker-11/INFO] [Pixelmon/]: Started the async storage scheduler.
+[17Jul2023 23:23:40.257] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:174) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:201) ~[forge:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_371]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:142) [forge:?]
+[17Jul2023 23:23:40.258] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[17Jul2023 23:23:40.322] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 3 jobs
+[17Jul2023 23:23:40.325] [main/INFO] [journeymap/]: Initializing Packet Registries
+[17Jul2023 23:23:40.327] [main/DEBUG] [journeymap/]: Registering internal Network handler.
+[17Jul2023 23:23:40.331] [main/DEBUG] [journeymap/]: Registering external WorldId packet handler on channel -> "worldinfo:world_id".
+[17Jul2023 23:23:40.332] [main/DEBUG] [journeymap/]: Registering external waypoint crud listener handler on channel -> "journeymap:waypoint".
+[17Jul2023 23:23:40.370] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.045
+[17Jul2023 23:23:40.476] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [pixelmon] Received version check data:
+{
+  "homepage": "https://pixelmonmod.com/",
+  "1.12.2": {
+    "6.0.0": "Released Pixelmon", 
+    "6.0.1": "Bug fix update.",
+    "6.2.0": "The Power Update",
+    "6.2.1": "Bug fix update",
+    "6.2.2": "Performace update",
+    "6.2.3": "The toaster performance update",
+    "6.3.0": "The Legendary Update",
+    "6.3.1": "Bug fix update",
+    "6.3.2": "Bug fix update",
+    "6.3.3": "Bug fix update",
+    "6.3.4": "Hotfix update",
+    "7.0.0": "Generation 7 update",
+    "7.0.1": "Bug fix update",
+    "7.0.2": "Bug fix update",
+    "7.0.3": "Crash fix",
+    "7.0.4": "Bug fix update",
+    "7.0.5": "They're no longer bugs. All hail Buzzwole.",
+    "7.0.6": "Two words: Legendary apocalypse",
+    "7.0.7": "Now with... Smart phones?",
+    "7.0.8": "A few more fixes before 7.1!",
+    "7.1.0": "The Integration Update",
+    "7.3.0": "Bye-Bye Pixelmon 7",
+    "7.3.1": "Bye-Bye Pixelmon 7",
+    "8.0.0": "Generation 8",
+    "8.0.2": "Generation 8",
+    "8.1.0": "A Sweet Update",
+    "8.1.1": "A Sweet Update",
+    "8.1.2": "A Sweet Update",
+    "8.2.0": "Something's different",
+    "8.3.0": "Vikings, probably",
+    "8.3.1": "Soup-er Spooky",
+    "8.3.2": "Sheep Starvation",
+    "8.3.3": "Sheep Starvation",
+    "8.3.4": "Forms, fixes and... spikey hair?",
+    "8.3.5": "Waiting....",
+    "8.3.6": "Spin, spin spin...",
+    "8.3.7": "Models, bugfixes and PL Pixelmon",
+    "8.3.8": "New voices!",
+    "8.4.0": "https://www.youtube.com/watch?v=SFkdcQgNJHo",
+    "8.4.1": "The essence of the update",
+    "8.4.2": "A Love/Hate relationship :)",
+    "8.4.3": "There are DOZENS of us, DOZENS!"
+  },
+  "1.16.5": {
+    "9.0.0": "Happy New Year!",
+    "9.0.1": "Great. Now we vampires...",
+    "9.0.2": "It's Hammertime....",
+    "9.0.3": "The loot is on fire",
+    "9.0.4": "Hoooooow Original...",
+    "9.0.5": "Don't worry, Bee happy :)",
+    "9.0.6": "Look up:)",
+    "9.0.7": "Your Daycare and You...",
+    "9.0.8": "Something about having a blast",
+    "9.0.9": "You have mail!",
+    "9.0.10": "GO GO GO!",
+    "9.0.11": "Swim Safely!",
+    "9.1.0": "Pick a card :)",
+    "9.1.1": "Pretty Ribbons and Wings...",
+	"9.1.2": "I already made a flight pun this week :(",
+	"9.1.3": "Love is in the Pokedex!",
+	"9.1.4": "Smol update",
+	"9.1.5": "Rainbows, but a lack of kittens"
+  },
+  "promos": {
+    "1.16.5-latest": "9.1.5",
+    "1.16.5-recommended": "9.1.5",
+    "1.12.2-latest": "8.4.3",
+    "1.12.2-recommended": "8.4.3"
+  }
+}
+[17Jul2023 23:23:40.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pixelmon] Found status: OUTDATED Current: 9.0.8 Target: 9.1.5
+[17Jul2023 23:23:40.481] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMPLETE: 1 jobs
+[17Jul2023 23:23:40.481] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: "Load Complete Event" Starting...
+[17Jul2023 23:23:40.481] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Adding Compostible Blocks...
+[17Jul2023 23:23:40.482] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Compostible Blocks Added!
+[17Jul2023 23:23:40.483] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Adding Hoeable Blocks...
+[17Jul2023 23:23:40.483] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Hoeable Blocks!
+[17Jul2023 23:23:40.484] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Adding Flammables...
+[17Jul2023 23:23:40.485] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Flammables!
+[17Jul2023 23:23:40.485] [main/DEBUG] [corgiaoc.byg.BYG/]: BYG: Adding strippable Blocks...
+[17Jul2023 23:23:40.486] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added strippable Blocks...
+[17Jul2023 23:23:40.487] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.006
+[17Jul2023 23:23:41.494] [main/DEBUG] [mixin/]: Mixing common.world.layers.MixinDimensionType from byg.mixins.json into net.minecraft.world.DimensionType
+[17Jul2023 23:23:41.494] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$endDimensionBYG$1(Lnet/minecraft/util/registry/Registry;)Lnet/minecraft/world/gen/DimensionSettings; to md8759b7$lambda$endDimensionBYG$1$0 in byg.mixins.json:common.world.layers.MixinDimensionType
+[17Jul2023 23:23:41.494] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$netherDimensionBYG$0(Lnet/minecraft/util/registry/Registry;)Lnet/minecraft/world/gen/DimensionSettings; to md8759b7$lambda$netherDimensionBYG$0$1 in byg.mixins.json:common.world.layers.MixinDimensionType
+[17Jul2023 23:23:41.543] [main/DEBUG] [net.minecraftforge.common.ForgeTagHandler/]: Populated the TagCollectionManager with 3 extra types
+[17Jul2023 23:23:42.443] [main/DEBUG] [mixin/]: Mixing common.world.layers.MixinHillsLayer from byg.mixins.json into net.minecraft.world.gen.layer.HillsLayer
+[17Jul2023 23:23:42.449] [main/DEBUG] [mixin/]: Mixing common.world.layers.MixinShoreLayer from byg.mixins.json into net.minecraft.world.gen.layer.ShoreLayer
+[17Jul2023 23:23:42.452] [main/DEBUG] [mixin/]: Mixing common.world.layers.MixinRiverLayer from byg.mixins.json into net.minecraft.world.gen.layer.MixRiverLayer
+[17Jul2023 23:23:42.453] [main/DEBUG] [mixin/]: Mixing common.world.layers.ocean.MixinMixOceansLayer from byg.mixins.json into net.minecraft.world.gen.layer.MixOceansLayer
+[17Jul2023 23:23:42.462] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Jul2023 23:23:42.501] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar
+[17Jul2023 23:23:42.501] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:fancymenu for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar
+[17Jul2023 23:23:42.501] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:konkrete for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar
+[17Jul2023 23:23:42.501] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:journeymap for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar
+[17Jul2023 23:23:42.501] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:pixelmon for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar
+[17Jul2023 23:23:42.501] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:byg for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar
+[17Jul2023 23:23:42.501] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:explorerscompass for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar
+[17Jul2023 23:23:42.501] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:naturescompass for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar
+[17Jul2023 23:23:42.505] [main/DEBUG] [net.minecraftforge.common.ForgeTagHandler/]: Gathering custom tag collection reader from types.
+[17Jul2023 23:23:42.510] [main/DEBUG] [mixin/]: Mixing server.MixinCommands from byg.mixins.json into net.minecraft.command.Commands
+[17Jul2023 23:23:42.636] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [spectate, ] and [spectate, target] with inputs: [words with spaces, "and symbols", word]
+[17Jul2023 23:23:42.637] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [spectate, target] and [spectate, ] with inputs: [Player, 0123, @e, @e[type=foo], dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17Jul2023 23:23:42.640] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17Jul2023 23:23:42.640] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17Jul2023 23:23:42.641] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17Jul2023 23:23:42.642] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17Jul2023 23:23:42.643] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17Jul2023 23:23:42.644] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, create, name, dimension, location, color, announce] and [waypoint, create, name, dimension, location, color, player] with inputs: [true, false]
+[17Jul2023 23:23:42.644] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, delete, name, announce] and [waypoint, delete, name, player] with inputs: [true, false]
+[17Jul2023 23:23:42.675] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.34-universal.jar, fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar, konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar, journeymap-1.16.5-5.8.5p2.jar, Pixelmon-1.16.5-9.0.8-universal.jar, byg-1.3.5.jar, ExplorersCompass-1.16.5-1.1.2-forge.jar, NaturesCompass-1.16.5-1.9.1-forge.jar
+[17Jul2023 23:23:43.639] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 8 recipes
+[17Jul2023 23:23:43.852] [Worker-Main-12/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1181 advancements
+[17Jul2023 23:23:44.003] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Dire Claw
+[17Jul2023 23:23:44.003] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Power Shift
+[17Jul2023 23:23:44.014] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Springtide Storm
+[17Jul2023 23:23:44.031] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Victory Dance
+[17Jul2023 23:23:44.033] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Triple Arrows
+[17Jul2023 23:23:44.042] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Stone Axe
+[17Jul2023 23:23:44.051] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Shelter
+[17Jul2023 23:23:44.060] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Mountain Gale
+[17Jul2023 23:23:44.060] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Power Shift
+[17Jul2023 23:23:44.128] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Power Shift
+[17Jul2023 23:23:44.143] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Wave Crash
+[17Jul2023 23:23:44.162] [Worker-Main-12/WARN] [Pixelmon/]: Attack name invalid: Shelter
+[17Jul2023 23:23:44.268] [Worker-Main-12/INFO] [Pixelmon/]: Registering Better Spawner.
+[17Jul2023 23:23:44.382] [Worker-Main-12/INFO] [Pixelmon/]: Registering trades.
+[17Jul2023 23:23:44.383] [Worker-Main-12/INFO] [Pixelmon/]: Registering shop items.
+[17Jul2023 23:23:45.532] [main/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[17Jul2023 23:23:45.541] [main/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[17Jul2023 23:23:45.571] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[17Jul2023 23:23:45.571] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[17Jul2023 23:23:45.571] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[17Jul2023 23:23:45.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Jul2023 23:23:45.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[17Jul2023 23:23:45.604] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[17Jul2023 23:23:45.825] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedPlayerList/]: Failed to load operators list: 
+java.lang.NullPointerException: null
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:121) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72417_t(SourceFile:103) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:26) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:160) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:621) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_371]
+[17Jul2023 23:23:45.828] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making serverconfig directory : .\world\serverconfig
+[17Jul2023 23:23:45.828] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created serverconfig directory : .\world\serverconfig
+[17Jul2023 23:23:45.828] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[17Jul2023 23:23:45.828] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\world\serverconfig\journeymap-server.toml
+[17Jul2023 23:23:45.829] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\world\serverconfig\journeymap-server.toml
+[17Jul2023 23:23:45.829] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\world\serverconfig\journeymap-server.toml for changes
+[17Jul2023 23:23:45.829] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\journeymap-server.toml is not correct. Correcting
+[17Jul2023 23:23:45.830] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Jul2023 23:23:45.830] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
+[17Jul2023 23:23:45.830] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key admins.opAccess does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.831] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec$Builder$1/CORE]: List on key serverAdmins is deemed to need correction. It is null, not a list, or an empty list. Modders, consider defineListAllowEmpty?
+[17Jul2023 23:23:45.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
+[17Jul2023 23:23:45.831] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key admins.serverAdmins does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.831] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[17Jul2023 23:23:45.832] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\world\serverconfig\forge-server.toml
+[17Jul2023 23:23:45.833] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\world\serverconfig\forge-server.toml
+[17Jul2023 23:23:45.833] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\world\serverconfig\forge-server.toml for changes
+[17Jul2023 23:23:45.833] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[17Jul2023 23:23:45.833] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Jul2023 23:23:45.833] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[17Jul2023 23:23:45.833] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringEntities does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.833] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringTileEntities does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fullBoundingBoxLadders does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBaseSummonChance does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBabyChance does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.logCascadingWorldGeneration does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fixVanillaCascading does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.dimensionUnloadQueueDelay does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.treatEmptyTagsAsAir does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fixAdvancementLoading does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server does not match the spec. This may create a backup.
+[17Jul2023 23:23:45.835] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[17Jul2023 23:23:45.839] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[17Jul2023 23:23:45.839] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[17Jul2023 23:23:45.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[17Jul2023 23:23:46.721] [Worker-Main-11/DEBUG] [mixin/]: Mixing access.BiomeContainerAccess from byg.mixins.json into net.minecraft.world.biome.BiomeContainer
+[17Jul2023 23:23:46.721] [Worker-Main-11/DEBUG] [mixin/]: Renaming @Accessor method getWIDTH_BITS()I to getWIDTH_BITS_$md$8759b7$0 in byg.mixins.json:access.BiomeContainerAccess
+[17Jul2023 23:23:46.721] [Worker-Main-11/DEBUG] [mixin/]: Renaming @Accessor method getHORIZONTAL_MASK()I to getHORIZONTAL_MASK_$md$8759b7$1 in byg.mixins.json:access.BiomeContainerAccess
+[17Jul2023 23:23:46.721] [Worker-Main-11/DEBUG] [mixin/]: Renaming @Accessor method getVERTICAL_MASK()I to getVERTICAL_MASK_$md$8759b7$2 in byg.mixins.json:access.BiomeContainerAccess
+[17Jul2023 23:23:46.819] [Worker-Main-14/DEBUG] [mixin/]: Mixing access.WorldDecoratingHelperAccess from byg.mixins.json into net.minecraft.world.gen.feature.WorldDecoratingHelper
+[17Jul2023 23:23:47.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17Jul2023 23:23:47.050] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[17Jul2023 23:23:47.528] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[17Jul2023 23:23:48.028] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 18%
+[17Jul2023 23:23:48.530] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 30%
+[17Jul2023 23:23:49.030] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 37%
+[17Jul2023 23:23:49.530] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 47%
+[17Jul2023 23:23:50.107] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
+[17Jul2023 23:23:50.595] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 60%
+[17Jul2023 23:23:51.039] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 74%
+[17Jul2023 23:23:51.533] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[17Jul2023 23:23:52.028] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[17Jul2023 23:23:52.245] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5217 ms
+[17Jul2023 23:23:52.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.419s)! For help, type "help"
+[17Jul2023 23:23:52.262] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 16188
+[17Jul2023 23:23:52.282] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\libraries\net\minecraftforge\forge\1.16.5-36.2.34\forge-1.16.5-36.2.34-universal.jar
+[17Jul2023 23:23:52.282] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:fancymenu for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar
+[17Jul2023 23:23:52.282] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:konkrete for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar
+[17Jul2023 23:23:52.282] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:journeymap for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\journeymap-1.16.5-5.8.5p2.jar
+[17Jul2023 23:23:52.282] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:pixelmon for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\Pixelmon-1.16.5-9.0.8-universal.jar
+[17Jul2023 23:23:52.282] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:byg for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\byg-1.3.5.jar
+[17Jul2023 23:23:52.282] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:explorerscompass for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\ExplorersCompass-1.16.5-1.1.2-forge.jar
+[17Jul2023 23:23:52.282] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:naturescompass for mod file C:\Users\Donald\Downloads\Pixelmon Server 9.0.8\Pixelmon Server 9.0.8\mods\NaturesCompass-1.16.5-1.9.1-forge.jar
+[17Jul2023 23:23:52.282] [Server thread/INFO] [Pixelmon/]: Datapacks found: vanilla,mod:forge,mod:fancymenu,mod:konkrete,mod:journeymap,mod:pixelmon,mod:byg,mod:explorerscompass,mod:naturescompass
+[17Jul2023 23:24:15.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[17Jul2023 23:24:15.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[17Jul2023 23:24:15.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[17Jul2023 23:24:15.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17Jul2023 23:24:15.383] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:cooking_pot}[facing=west,multipos=top] but failed at location BlockPos{x=-155, y=77, z=-94}
+[17Jul2023 23:24:15.726] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17Jul2023 23:24:15.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17Jul2023 23:24:15.727] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Jul2023 23:24:15.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17Jul2023 23:24:15.728] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Jul2023 23:24:15.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/pixelmon:ultra_space
+[17Jul2023 23:24:15.728] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ultra_space): All chunks are saved
+[17Jul2023 23:24:15.729] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[17Jul2023 23:24:15.732] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[17Jul2023 23:24:15.743] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17Jul2023 23:24:15.748] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Jul2023 23:24:15.748] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Jul2023 23:24:15.748] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ultra_space): All chunks are saved
+[17Jul2023 23:24:15.750] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\world\serverconfig
+[17Jul2023 23:24:15.750] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
